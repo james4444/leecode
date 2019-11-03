@@ -37,13 +37,23 @@ public class SwapPairs {
         return  next;
     }
 
-    public static ListNode swap(ListNode temp,int val){
-        if(null == temp){
-            return new ListNode(val);
-        }else{
-            ListNode x = new ListNode(val);
-            x.next = temp;
-            return  x;
+    /**
+     * 非递归写法
+     * @param head
+     * @return
+     */
+    public static ListNode swapPairs2(ListNode head){
+        ListNode pre = new ListNode(0);
+        pre.next = head;
+        ListNode temp = pre;
+        while(temp.next != null && temp.next.next != null) {
+            ListNode start = temp.next;
+            ListNode end = temp.next.next;
+            temp.next = end;
+            start.next = end.next;
+            end.next = start;
+            temp = start;
         }
+        return pre.next;
     }
 }
