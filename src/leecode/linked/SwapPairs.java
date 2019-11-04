@@ -18,7 +18,7 @@ public class SwapPairs {
         int[] nums = new int[]{1,2,3,4};
         ListNode head = ListNodeUtils.getNodeList(nums);
         head = ReverseListNode.reverseList(head);
-        ListNodeUtils.printNodeList(swapPairs(head));
+        ListNodeUtils.printNodeList(swapPairs2(head));
     }
 
     /**
@@ -39,20 +39,24 @@ public class SwapPairs {
 
     /**
      * 非递归写法
+     * 心得：要把引用赋值想象成指针，进行指针的偏移
      * @param head
      * @return
      */
     public static ListNode swapPairs2(ListNode head){
         ListNode pre = new ListNode(0);
+
         pre.next = head;
-        ListNode temp = pre;
-        while(temp.next != null && temp.next.next != null) {
-            ListNode start = temp.next;
-            ListNode end = temp.next.next;
-            temp.next = end;
+        ListNode tmp = pre;
+
+        while (null != tmp.next && null != tmp.next.next){
+            ListNode start = tmp.next;
+            ListNode end = tmp.next.next;
+
+            tmp.next = end;
             start.next = end.next;
             end.next = start;
-            temp = start;
+            tmp = start;
         }
         return pre.next;
     }
