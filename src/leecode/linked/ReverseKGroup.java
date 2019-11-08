@@ -30,19 +30,53 @@ import leecode.linked.ListNode.ListNodeUtils;
 public class ReverseKGroup {
 
     public static void main(String[] args) {
-        int[] nums = new int[]{5,4,3,2,1};
+        int[] nums = new int[]{6,5,4,3,2,1};
         ListNode head = ListNodeUtils.getNodeList(nums);
-        head = reverseKGroup(head,2);
+        head = reverseKGroup(head,3);
         ListNodeUtils.printNodeList(head);
     }
 
-    public static ListNode reverseKGroup(ListNode head, int k) {
-        ListNode pre = new ListNode(0);
-        pre.next = head;
-        ListNode temp = pre;
+    private static ListNode reverseKGroup(ListNode head, int k) {
+        ListNode dummy = new ListNode(0);
+        dummy.next = head;
 
+        ListNode pre = dummy;
+        ListNode end = dummy;
 
-        return pre.next;
+        while (end.next != null){
+            for(int i=0;i<k && end != null ; i++){
+                end = end.next;
+            }
+
+            if(end == null){
+                break;
+            }
+
+            ListNode start = pre.next;
+            ListNode next = end.next;
+
+            end.next = null;
+            pre.next = reverse(start);
+
+            start.next = next;
+            pre = start;
+
+            end = pre;
+
+        }
+        return dummy.next;
+
+    }
+
+    private static ListNode reverse(ListNode start) {
+        ListNode pre = null;
+        while (start != null){
+            ListNode next = start.next;
+            start.next = pre;
+            pre = start;
+            start = next;
+        }
+        return pre;
     }
 
 }

@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61478af9-9ade-4710-9b84-b2d196ddfeba" name="Default" comment="增加部分注释">
+    <list default="true" id="61478af9-9ade-4710-9b84-b2d196ddfeba" name="Default" comment="k次反转">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leecode/linked/ReverseKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/linked/ReverseKGroup.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,12 +12,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leecode/linked/ReverseListNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="135">
               <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -28,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/leecode/linked/ReverseKGroup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="190">
+              <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leecode/linked/SwapPairs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="60" column="24" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="60" selection-end-column="24" />
+            <state relative-caret-position="1593">
+              <caret line="60" column="24" selection-start-line="46" selection-start-column="7" selection-end-line="60" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,7 +57,7 @@
         <entry file="file://$PROJECT_DIR$/src/leecode/linked/DetectCycle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="108">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -61,8 +65,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leecode/array/SingleNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            <state relative-caret-position="378">
+              <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leecode/array/TwoSumTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+            <state relative-caret-position="297">
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -131,8 +135,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,54 +155,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leecode" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="leecode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="leecode" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="leecode" type="462c0819:PsiDirectoryNode" />
-              <item name="linked" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leecode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="leecode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="leecode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="jaccess.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="leecode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
-              <item name="jaccess.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/java/leecode/src/leecode/linked/ReverseListNode.java&#10;he&#9;FILE&#9;file://D:/java/leecode/.git-CONFLICT-bd0c71cb61b64fe514b2c52460bd722b/refs/heads" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1572952618215" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573197686075" />
     <property name="last_opened_file_path" value="D:/../data_structures_and_algorithms" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -355,6 +329,11 @@
       <workItem from="1572818248118" duration="6000000" />
       <workItem from="1572875780577" duration="1417000" />
       <workItem from="1572905371094" duration="399000" />
+      <workItem from="1572971372935" duration="25000" />
+      <workItem from="1572971640134" duration="44000" />
+      <workItem from="1573113843059" duration="3849000" />
+      <workItem from="1573131210243" duration="2450000" />
+      <workItem from="1573181084664" duration="4124000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1572652181437</created>
@@ -405,14 +384,22 @@
       <option name="project" value="LOCAL" />
       <updated>1572935871200</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="k次反转">
+      <created>1572952687460</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1572952687460</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30869000" />
+    <option name="totallyTimeSpent" value="41477000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Image Layers" order="1" />
@@ -420,7 +407,7 @@
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2829513" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.2191977" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" />
@@ -430,12 +417,13 @@
       <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.49928367" weight="0.0902965" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49713466" visible="true" weight="0.2884097" />
-      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.49856734" weight="0.39757413" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49713466" weight="0.26549864" />
+      <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.49856734" weight="0.37061995" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49856734" weight="0.16307278" />
+      <window_info active="true" anchor="bottom" id="Messages" order="13" sideWeight="0.49856734" visible="true" weight="0.16307278" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
       <window_info anchor="right" id="Maven Projects" order="2" />
@@ -446,6 +434,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="10" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
@@ -492,7 +481,8 @@
     <MESSAGE value="出现个数为奇数的数字" />
     <MESSAGE value="环形链表起始位置" />
     <MESSAGE value="增加部分注释" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加部分注释" />
+    <MESSAGE value="k次反转" />
+    <option name="LAST_COMMIT_MESSAGE" value="k次反转" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -505,6 +495,12 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="head" />
+        <watch expression="temp" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/leecode/array/algorithms.java" />
@@ -523,54 +519,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/leecode/array/TwoSumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leecode/linked/DetectCycle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leecode/array/SingleNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/leecode/linked/HasCycle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-243">
           <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leecode/linked/SwapPairs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="60" column="24" lean-forward="true" selection-start-line="46" selection-start-column="7" selection-end-line="60" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/leecode/linked/ReverseListNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -595,10 +547,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/leecode/linked/ReverseListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leecode/linked/SwapPairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1593">
+          <caret line="60" column="24" selection-start-line="46" selection-start-column="7" selection-end-line="60" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leecode/linked/DetectCycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leecode/array/SingleNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leecode/array/TwoSumTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/leecode/linked/ReverseKGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="190">
+          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
