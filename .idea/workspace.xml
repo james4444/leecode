@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="61478af9-9ade-4710-9b84-b2d196ddfeba" name="Default" comment="k次反转">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leecode/linked/ReverseKGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leecode/linked/ReverseKGroup.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,13 +28,38 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/leecode/linked/ReverseKGroup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+            <state relative-caret-position="-347">
+              <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/leecode/stack/Brackets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="199">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://F:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="740">
+              <caret line="633" column="19" selection-start-line="633" selection-start-column="19" selection-end-line="633" selection-end-column="19" />
+              <folding>
+                <element signature="e#23072#23073#0" expanded="true" />
+                <element signature="e#23112#23113#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,6 +141,7 @@
         <option value="$PROJECT_DIR$/src/leecode/array/TwoSumTest.java" />
         <option value="$PROJECT_DIR$/src/leecode/linked/DetectCycle.java" />
         <option value="$PROJECT_DIR$/src/leecode/linked/ReverseKGroup.java" />
+        <option value="$PROJECT_DIR$/src/leecode/stack/Brackets.java" />
       </list>
     </option>
   </component>
@@ -155,6 +180,43 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="leecode" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leecode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leecode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="leecode" type="462c0819:PsiDirectoryNode" />
+              <item name="stack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leecode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="leecode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="leecode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leecode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leecode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -165,7 +227,7 @@
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://D:/java/leecode/src/leecode/linked/ReverseListNode.java&#10;he&#9;FILE&#9;file://D:/java/leecode/.git-CONFLICT-bd0c71cb61b64fe514b2c52460bd722b/refs/heads" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573197686075" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573199384079" />
     <property name="last_opened_file_path" value="D:/../data_structures_and_algorithms" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -191,7 +253,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseKGroup">
+  <component name="RunManager" selected="Application.Brackets">
+    <configuration name="Brackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leecode.stack.Brackets" />
+      <module name="data_structures_and_algorithms" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leecode.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReverseKGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leecode.linked.ReverseKGroup" />
       <module name="data_structures_and_algorithms" />
@@ -255,20 +331,6 @@
       </method>
     </configuration>
     <configuration name="twoSumTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="leecode.array.twoSumTest1" />
-      <module name="data_structures_and_algorithms" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="leecode.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="twoSumTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="leecode.array.twusum.twoSumTest1" />
       <module name="data_structures_and_algorithms" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -294,19 +356,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.twoSumTest1" />
       <item itemvalue="Application.ReverseListNode" />
       <item itemvalue="Application.SwapPairs" />
       <item itemvalue="Application.SingleNumber" />
       <item itemvalue="Application.ReverseKGroup" />
+      <item itemvalue="Application.Brackets" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Brackets" />
         <item itemvalue="Application.ReverseKGroup" />
         <item itemvalue="Application.SingleNumber" />
         <item itemvalue="Application.SwapPairs" />
         <item itemvalue="Application.ReverseListNode" />
-        <item itemvalue="Application.twoSumTest1" />
       </list>
     </recent_temporary>
   </component>
@@ -333,7 +395,7 @@
       <workItem from="1572971640134" duration="44000" />
       <workItem from="1573113843059" duration="3849000" />
       <workItem from="1573131210243" duration="2450000" />
-      <workItem from="1573181084664" duration="4124000" />
+      <workItem from="1573181084664" duration="5820000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1572652181437</created>
@@ -391,11 +453,18 @@
       <option name="project" value="LOCAL" />
       <updated>1572952687460</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="k次反转">
+      <created>1573197696679</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1573197696680</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41477000" />
+    <option name="totallyTimeSpent" value="43173000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
@@ -417,12 +486,12 @@
       <window_info anchor="bottom" id="Version Control" order="5" sideWeight="0.49928367" weight="0.0902965" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.49713466" weight="0.26549864" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" sideWeight="0.49713466" visible="true" weight="0.26415095" />
       <window_info anchor="bottom" id="Debug" order="9" sideWeight="0.49856734" weight="0.37061995" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info active="true" anchor="bottom" id="Messages" order="13" sideWeight="0.49856734" visible="true" weight="0.16307278" />
+      <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49856734" weight="0.2857143" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="1" />
@@ -593,8 +662,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/leecode/linked/ReverseKGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="38" column="11" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+        <state relative-caret-position="-347">
+          <caret line="48" column="13" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="740">
+          <caret line="633" column="19" selection-start-line="633" selection-start-column="19" selection-end-line="633" selection-end-column="19" />
+          <folding>
+            <element signature="e#23072#23073#0" expanded="true" />
+            <element signature="e#23112#23113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/leecode/stack/Brackets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
