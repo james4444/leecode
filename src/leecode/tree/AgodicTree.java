@@ -142,15 +142,19 @@ public class AgodicTree {
 
 
     public static TreeNode getTreeNode(){
-        TreeNode left1 = new TreeNode(9);
-        TreeNode right1 = new TreeNode(23);
-        TreeNode left11 = new TreeNode(14,left1,right1);
+        TreeNode left1 = new TreeNode(3);
+        TreeNode right1 = new TreeNode(5);
+        TreeNode left11 = new TreeNode(4,left1,right1);
 
-        TreeNode left2 = new TreeNode(34);
-        TreeNode right2 = new TreeNode(47);
-        TreeNode right11 = new TreeNode(39,left2,right2);
+        TreeNode left2 = new TreeNode(7);
+        TreeNode right2 = new TreeNode(9);
+        TreeNode right11 = new TreeNode(8,left2,right2);
 
-        TreeNode root = new TreeNode(30,left11,right11);
+        TreeNode left3 = new TreeNode(0);
+        TreeNode left21 = new TreeNode(2,left3,left11);
+
+
+        TreeNode root = new TreeNode(6,left21,right11);
         return  root;
     }
 }
