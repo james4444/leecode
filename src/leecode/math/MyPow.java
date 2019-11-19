@@ -45,6 +45,12 @@ public class MyPow {
         return x;
     }
 
+    /**
+     * 利用分治思想
+     * @param x
+     * @param n
+     * @return
+     */
     public static double calMyPow(double x,int n){
         if(n == 0) return 1;
 
