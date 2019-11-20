@@ -2,6 +2,8 @@ package leecode.tree;
 
 import leecode.tree.TreeNode.TreeNode;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Stack;
 
 /**
@@ -21,14 +23,36 @@ public class AgodicTree {
         TreeNode root = getTreeNode();
 
         //递归先序遍历
-//        dlr1(root);
+        dlr1(root);
 
         //递归中序遍历
 //        ldr2(root);
 
         //后续遍历  左右根
-        lrd2(root);
+//        lrd2(root);
+
+        //广度优先遍历
+        bfs(root);
     }
+
+    private static void bfs(TreeNode root) {
+        Queue<TreeNode> queue = new LinkedList<TreeNode>();
+        ((LinkedList<TreeNode>) queue).push(root);
+
+        while (!queue.isEmpty()){
+            TreeNode node = ((LinkedList<TreeNode>) queue).poll();
+            System.out.println(node.val);
+            if(null != node.left){
+                ((LinkedList<TreeNode>) queue).offer(node.left);
+            }
+            if(null != node.right){
+                ((LinkedList<TreeNode>) queue).offer(node.right);
+            }
+        }
+
+
+    }
+
 
     /**
      * 迭代后续遍历
