@@ -5,6 +5,8 @@ import leecode.tree.TreeNode.TreeNode;
 import java.util.LinkedList;
 import java.util.Queue;
 
+import static java.lang.Math.max;
+
 /**
  * 给定一个二叉树，找出其最大深度。
  *
@@ -29,7 +31,23 @@ import java.util.Queue;
 public class MaxDepth {
     public static void main(String[] args) {
         TreeNode root = TreeNode.getTreeNode();
-        System.out.println(maxDepth(root));
+        System.out.println(maxDepth2(root));
+    }
+
+    /**
+     * 深度优先，递推公式为f(n-1) + 1
+     * @param root
+     * @return
+     */
+    private static int maxDepth2(TreeNode root) {
+        if(root == null) return 0;
+
+        int left = maxDepth2(root.left);
+        int right = maxDepth2(root.right);
+
+        return 1+max(left,right);
+
+
     }
 
     /**
