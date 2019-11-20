@@ -36,45 +36,24 @@ public class LevelOrder {
 
 
         Queue<TreeNode> queue = new LinkedList<>();
-        Queue<TreeNode> queue2 = new LinkedList<>();
         queue.offer(root);
-        boolean flag = true;
+        while (!queue.isEmpty()){
+            list = new LinkedList<>();
+            int size = queue.size();
+            for(int i=0; i<size; i++){
+                TreeNode treeNode = queue.poll();
 
-        while (!queue.isEmpty() || !queue2.isEmpty()){
-            if(flag){
-                list = new LinkedList<>();
-                while (!queue.isEmpty()){
-                    TreeNode treeNode = queue.poll();
-                    if(null != treeNode.left){
-                        list.add(treeNode.left.val);
-                        queue2.offer(treeNode.left);
-                    }
-                    if(null != treeNode.right){
-                        list.add(treeNode.right.val);
-                        queue2.offer(treeNode.right);
-                    }
+                if(null != treeNode.left){
+                    list.add(treeNode.left.val);
+                    queue.offer(treeNode.left);
                 }
-                if(!list.isEmpty()){
-                    result.add(list);
-                    flag = false;
+                if(null != treeNode.right){
+                    list.add(treeNode.right.val);
+                    queue.offer(treeNode.right);
                 }
-            }else{
-                list = new LinkedList<>();
-                while (!queue2.isEmpty()){
-                    TreeNode treeNode = queue2.poll();
-                    if(null != treeNode.left){
-                        list.add(treeNode.left.val);
-                        queue.offer(treeNode.left);
-                    }
-                    if(null != treeNode.right){
-                        list.add(treeNode.right.val);
-                        queue.offer(treeNode.right);
-                    }
-                }
-                if(!list.isEmpty()){
-                    result.add(list);
-                    flag = true;
-                }
+            }
+            if(!list.isEmpty()){
+                result.add(list);
             }
         }
         return result;
