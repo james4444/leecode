@@ -2,7 +2,7 @@ package leecode.sort;
 
 public class SelectionSortTest {
     /**
-     * 选择排血，每次找出未排序最小的，做交换
+     * 选择排序，每次找出未排序最小的，做交换
      */
     public static int[] sort(int[] nums){
         for(int i=0 ; i<nums.length; i++){
