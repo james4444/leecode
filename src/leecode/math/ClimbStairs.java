@@ -19,6 +19,11 @@ public class ClimbStairs {
     }
 
 
+    /**
+     * 递归写法
+     * @param n
+     * @return
+     */
     public static int climbStairs(int n) {
         HashMap<Integer,Integer> map = new HashMap<>();
         return climbStairs(n,map);
@@ -33,6 +38,11 @@ public class ClimbStairs {
     }
 
 
+    /**
+     * 递推公式 f(n) = f(n-1) + f(n-2)
+     * @param n
+     * @return
+     */
     public static int climbStairs2(int n) {
         if(n <= 2) return n;
 
