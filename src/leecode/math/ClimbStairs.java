@@ -15,7 +15,7 @@ import java.util.HashMap;
  */
 public class ClimbStairs {
     public static void main(String[] args) {
-        System.out.println(climbStairs(3));
+        System.out.println(climbStairs2(5));
     }
 
 
@@ -30,6 +30,23 @@ public class ClimbStairs {
         }
 
         return map.get(n);
+    }
+
+
+    public static int climbStairs2(int n) {
+        if(n <= 2) return n;
+
+        int[] nums = new int[3];
+        nums[0] = 0;
+        nums[1] = 1;
+        nums[2] = 2;
+
+        for(int i=2; i<n; i++){
+            nums[0] = nums[1];
+            nums[1] = nums[2];
+            nums[2] = nums[0] + nums[1];
+        }
+        return nums[2];
     }
 
 
