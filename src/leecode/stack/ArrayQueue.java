@@ -20,22 +20,18 @@ public class ArrayQueue {
 
 
     public boolean offer(String s){
-        if(tail < this.capacity){
-            array[tail] = s;
-            tail ++;
-            return true;
-        }else{
-            if(head > 0){
-                int j = 0;
-                for(int i = head; i < tail; i++){
-                    array[j++] = array[head++];
-                }
-                head = 0;
-                tail = j;
-                return offer(s);
+        if(tail == capacity){
+            if(head == 0) return  false;
+            for(int i = head;i<tail;i++){
+                array[head-i] = array[i];
             }
-            return false;
+            tail -= head;
+            head = 0;
         }
+
+        array[tail] = s;
+        tail ++;
+        return true;
     }
 
     public String pop(){
